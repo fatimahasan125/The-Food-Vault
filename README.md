@@ -47,3 +47,11 @@ Currently, we have developed the front end of this project. The back end will al
 ## Demo
 
 https://user-images.githubusercontent.com/68266703/121223159-adbb7c00-c8a0-11eb-8eb3-87d8dc1da773.mp4
+
+
+Group Members:
+
+Samra Fakhar \
+Nuzha Khalid \
+Zarish Nadeem \
+Shanzay Gauhar 
