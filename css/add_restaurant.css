@@ -1,0 +1,15 @@
+.form-group{
+    font-size: 1.5vw;
+    margin: 2%;
+}
+
+input[type=submit]{
+	width: 40%;
+	margin-left: 20%;
+	background-color: #F9A31A;
+	font-weight: bold;
+}
+
+input:focus {
+  border-color: #B51F59;
+}

@@ -1,0 +1,8 @@
+.button3{
+  transition-duration: 0.4s;
+}
+
+.button3:hover {
+  background-color: orange; 
+  color: white;
+}

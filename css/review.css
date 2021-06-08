@@ -1,0 +1,45 @@
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.checked {
+  color: #E4287C;
+  position: relative;
+}
+
+.heading {
+	font-family: 'Oswald';
+    background-color: white;
+	font-size: 20px;
+	margin-right: 5px;
+	margin-left:2px;
+	color: #E4287C;
+	
+}
+
+.button {
+  
+	font-family: 'Oswald';
+    background-color: white;
+	font-size: 15px;
+	margin-right: 3px;
+	margin-left:530px;
+	color: #E4287C;
+  
+}
+
+.button:hover {background-color: orange}
+
+.button:active {
+  background-color: #E4287C;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);

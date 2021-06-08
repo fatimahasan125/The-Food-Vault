@@ -1,0 +1,52 @@
+﻿html {
+    margin: 0;
+    max-width: 1920px;
+}
+body{
+    font-family: 'Oswald';
+}
+header {
+    width: auto;
+    padding-left: 18%;
+    background: #F9A31A;
+    color: #B51F59;
+    height: 30px;
+    margin-top: 30px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    font-weight: 200;
+    font-size: 25px;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding-bottom:10%;
+}
+.addtocart{
+    padding-left:6%
+}
+
+.editbtn {
+
+    border:none;
+    padding-left: 4%;
+    padding-right: 4%;
+    position:center;
+    color: #B51F59;
+    font-family: 'Oswald';
+    font-size: 17px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: #B51F59;
+    color:  #F9A31A;
+  
+}
+.editbtn:hover{
+    background-color: #F9A31A;
+    color: #B51F59;
+}
+
+
+p {
+    margin: 0;
+}

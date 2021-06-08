@@ -1,0 +1,33 @@
+
+.w3-animate-fading{
+ animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+  50% {opacity:0.5;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  50% {opacity:0.5;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  50% {opacity:0.5;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  50% {opacity:0.5;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  50% {opacity:0.5;}
+  100% {opacity:1;}
+}
