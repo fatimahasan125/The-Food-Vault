@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/tables.css">
+<link rel="stylesheet" href="css/user_home.css">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css" >
+<link href="css/main.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">    
+
+
+</head>
+<body>
+<div class="topnav">
+  <a style="float:left" href="user_home.html">Home</a>
+  <a href="Menu.html" style="float:left;">Back to Restaurant Menu </a>
+  <a href="Login.html">Log Out</a>
+</div>
+<img src="media/logo.png" class="center" height="150" width="150">
+  <!-- 
+<header>
+<h2 class="title text-center" style = "color: #B51F59;float:left;" > <b> Your Order </b></h2>
+</header>
+-->
+<body>
+
+	<section id="cart_items">
+		<div class="container">
+		<br/><br/><br/>
+		<h2 class="title text-center">Your Order</h2>
+			<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead>
+						<tr class="cart_menu" style = "background-color: #B51F59;">
+							<td class="image">Item</td>
+							<td class="image">Name</td>
+							<td class="price">Price</td>
+							<td class="quantity">Quantity</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="cart_product">
+								<img src="media/Margheritapizza.jpg" alt=""  height="60px" width="60px"></img>
+							</td>
+							<td class="cart_description">
+								Margherita Pizza
+							</td>
+							<td class="cart_total">
+								895
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<div class = "varyQuantity"><a class="cart_quantity_up" href=""> - </a></div>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<div class = "varyQuantity"><a class="cart_quantity_down" href=""> + </a></div>
+								</div>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times" style = "color: #B51F59;"></i></a>
+							</td>
+						</tr>
+
+
+<tr>
+							<td class="cart_product">
+								<img src="media/alfredo.jpg" alt=""  height="60px" width="60px"></img>
+							</td>
+							<td class="cart_description">
+								Fettuccine Alfredo
+							</td>
+							<td class="cart_total">
+								1095
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<div class = "varyQuantity"><a class="cart_quantity_up" href=""> - </a></div>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<div class = "varyQuantity"><a class="cart_quantity_down" href=""> + </a></div>
+								</div>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times" style = "color: #B51F59;"></i></a>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="cart_product">
+								<img src="media/mlcake.jpg" alt=""  height="60px" width="60px"></img>
+							</td>
+							<td class="cart_description">
+								Halwa Puri
+							</td>
+							<td class="cart_total">
+								645
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<div class = "varyQuantity"><a class="cart_quantity_up" href=""> - </a></div>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<div class = "varyQuantity"><a class="cart_quantity_down" href=""> + </a> </div>
+								</div>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times" style = "color: #B51F59;"></i></a>
+							</td>
+						</tr>
+						<tr>
+							<td class="cart_product">
+								<h3><b style="color: #eb9c2e;">Promo Code</b></h3>
+							</td>
+							<td class="cart_description">
+								
+							</td>
+							<td class="cart_total">
+								
+							</td>
+							<td class="cart_quantity">
+								<input class="cart_quantity_input" type="text" name="promoCode" value=" " autocomplete="off" style="border: 2px solid #eb9c2e;border-radius:3px;">
+							</td>
+							<td class="cart_delete">
+								<button type="button" style="color:white; background-color: #eb9c2e;margin-bottom:20px;" class="btn btn-default" id="button1">Add Promo Code</button>
+							</td>
+						</tr>
+						
+						<tr>
+							<td class="cart_product">
+								<h3><b style="color: #B51F59;">Total</b></h3>
+							</td>
+							<td class="cart_description">
+								
+							</td>
+							<td class="cart_total">
+								
+							</td>
+							<td class="cart_quantity">
+								
+							</td>
+							<td class="cart_delete">
+								<h3><b style="color: #B51F59;">2635</b></h3>
+							</td>
+						</tr>
+						
+					</tbody>
+				</table>
+			</div>
+			<div class="modal-footer">
+          <button type="button" style="color:white; background-color: #eb9c2e;" class="btn btn-default" id="button1" onClick="location.href='invoice.html'">Checkout</button>
+		  <button type="button" style="color:white; background-color: #eb9c2e; float:left" class="btn btn-default" id="button1" onClick="location.href='user_home.html'">Cancel Order</button>
+	</div>
+		</div>
+		
+	</section>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/tables.css">
+<link rel="stylesheet" href="css/user_home.css">
+<link rel="stylesheet" href="css/promo.css">
+<script src="js/location.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+<link href="css/responsive.css" rel="stylesheet">  
+<link href="css/responsive.css" rel="stylesheet">  
+</head>
+<body>
+<div class="topnav">
+  <a href="#news">Log Out</a>
+  <a style="float:left" href="admin_home.html">Home</a>
+</div>
+<img src="media/logo.png" class="center" height="150" width="150">
+
+
+<form>
+	<div class="container">
+
+		<div class="newLoc">
+		
+			<h2>Add new Promo Code</h2>
+			<input id="promo" type="text" required>
+			<br>
+			<br>
+			
+			<h2>Discount Percentage</h2>
+			<input id="percentage" type="text" required>
+			<br>
+			<br>
+			
+			<h2>Date of Expiry</h2>
+			<input id="expdate" type="date" required>
+			<br>
+			<br>
+			
+			<h1>Restaurants</h1>
+			<div class="select">
+			  <select size = "10" name="Rslct" id="Rslct" multiple style="height: 100%;" required>
+				<option value="1">Tuscany Courtyard</option>
+				<option value="2">Butlers</option>
+				<option value="3">Novu</option>
+				<option value="4">Cosa Nostra</option>
+				<option value="5">Nando's</option>
+				<option value="6">Haveli Restaurant</option>
+				<option value="7">Cafe Aylanto</option>
+				<option value="8">Yum! Chinese and Thai Restaurant</option>
+				<option value="9">Spice Bazar</option>
+				<option value="10">Arcadian Cafe</option>
+				<option value="11">Salt'n Pepper</option>
+				<option value="12"> Cooco's Den</option>
+				<option value="13">Fuchsia Kitchen</option>
+				<option value="14">PF Chang's</option>
+			  </select>
+			  
+			</div>
+			
+			
+		</div> 
+		<button type="button" class = "button4" id="btn-add-state">Add Promo Code</button>
+	</div>
+	
+</form>
+
+</body>
+</html>

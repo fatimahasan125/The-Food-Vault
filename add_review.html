@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="css/tables.css">
+<link rel="stylesheet" href="css/location.css">
+<link rel="stylesheet" href="css/order_status.css">
+<link rel="stylesheet" href="css/add_review.css">
+<link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+</head>
+<body>
+	<div class="topnav">
+		<a style="float:left" href="user_home.html">Home</a>
+		<a href="Login.html">Log Out</a>
+	</div>
+
+	<img src="media/logo.png" class="center" height="100" width="100">
+
+	<div style="margin:auto; width:50%" >
+		<p style="float:left;font-size:25px;margin:2% 5% 2% 5% ">Add a review</p>
+		<form method="POST" action="./AddReview">
+			<div class="form-group">
+				<input id="Review" type="text" name="Review" placeholder="FeedBack" class="form-control" required>
+			</div>
+			<div class="form-group">
+				<input id="Star" type="text" name="Star" placeholder="Rate Stars" class="form-control" required>
+			</div>
+			
+			<input type="submit" id="reg-button" value="Submit">
+		</form>
+	</div>
+	
+
+    
+
+</body>
+</html>
